@@ -26,7 +26,9 @@ void insert_at_head(node*& head, int value)
 	n->next = head;
 
 	if (head != NULL) {
+
 		head->prev = n;
+		
 	}
 
 	head = n;
